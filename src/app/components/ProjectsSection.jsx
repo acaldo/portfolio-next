@@ -7,57 +7,48 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Dashboard Dinamico",
+    description: "Dashboard hecho con streamlit alojado con docker",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Data"],
+    gitUrl: "https://github.com/acaldo/sales-dashboard-live",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Varios Analisis",
+    description: "Varios analisis con diferentes dataset,hecho con python en jupyter notebook ",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Data"],
+    gitUrl: "https://github.com/acaldo/data-analysis",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "API REST conectada con WEBSOCKET",
+    description: "Api Rest hecha en Go con la posibilidad de utilizar websocket buildeada con Docker",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/acaldo/rest-websockets",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "GRPC con Go",
+    description: "Aplicacion para testear pruebas de usuarios utilizando GRPC y protobuff",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/acaldo/grpc",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Quiz React & GO",
+    description: "Simple Quiz hecho en Go y React para responder preguntas de GO",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Backend"],
     gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://quiz-one-woad.vercel.app",
   },
 ];
 
@@ -89,11 +80,6 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="All"
           isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
         />
         <ProjectTag
           onClick={handleTagChange}
