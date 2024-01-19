@@ -34,7 +34,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Data Analysis with Python | Freecodecamp</li>
         <li>
-        <Link href="https://drive.google.com/file/d/1ZEyzv1Ba6Vkw1tdpN66msyMP_lVoUMZ8/view" target="_blank" className="from-primary-900">
+        <Link href="https://drive.google.com/file/d/1ZEyzv1Ba6Vkw1tdpN66msyMP_lVoUMZ8/view" target="_blank" className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
             30+ Platzi certificados [Python,Go,Cloud,Node]
           </Link>
           </li>
