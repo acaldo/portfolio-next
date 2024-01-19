@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Link from "next/link";
 
 const TAB_DATA = [
   {
@@ -31,8 +32,12 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Data Analysis with Python | Freecodecamp</li>
+        <li>
+        <Link href="https://drive.google.com/file/d/1ZEyzv1Ba6Vkw1tdpN66msyMP_lVoUMZ8/view" target="_blank" className="from-primary-900">
+            30+ Platzi certificados [Python,Go,Cloud,Node]
+          </Link>
+          </li>
       </ul>
     ),
   },

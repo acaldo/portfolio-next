@@ -6,6 +6,24 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 7,
+    title: "ETL Pokemon GCP",
+    description: "Etl con los datos de pokeapi,transformando los datos con DBT, Testing con Soda orquestado con Airflow y Bigquery como bdd todo alojado en Docker",
+    image: "/images/projects/7.png",
+    tag: ["All", "Data"], 
+    gitUrl: "https://github.com/acaldo/pokemon_airflow",
+    previewUrl: "https://drive.google.com/file/d/12CnzXta3S_W3sNu-Q1fN1MMcw4jXTmdI/view?usp=sharing",
+  },
+  {
+    id: 6,
+    title: "Simple ELt",
+    description: "Elt orquestado en Airflow transformando los datos con DBT todo alojado en Docker",
+    image: "/images/projects/6.png",
+    tag: ["All", "Data"], 
+    gitUrl: "https://github.com/acaldo/elt",
+    previewUrl: "/",
+  },
+  {
     id: 1,
     title: "Dashboard Dinamico",
     description: "Dashboard hecho con streamlit alojado con docker",
