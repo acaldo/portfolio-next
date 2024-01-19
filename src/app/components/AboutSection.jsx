@@ -13,6 +13,7 @@ const TAB_DATA = [
         <li>PostgreSQL</li>
         <li>Python</li>
         <li>Go</li>
+        <li>Docker</li>
         <li>Airflow</li>
         <li>Excel</li>
       </ul>
